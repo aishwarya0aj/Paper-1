@@ -60,8 +60,6 @@
         <activity
             android:name=".FeedbackActivity"
             android:parentActivityName=".SelectSchemeActivity" />
-        <activity android:name=".G_Scheme.Computer.CompSem1Subject_g_Activity" />
-        <activity android:name=".G_Scheme.Computer.CompSem2Subject_g_Activity" />
         <activity android:name=".G_Scheme.Computer.CompSem3Subject_g_Activity" />
         <activity android:name=".G_Scheme.Computer.CompSem4Subject_g_Activity"></activity>
     </application>
