@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Paper</string>
+    <string name="title_activity_select_scheme">SelectSchemeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="feedback_textview">If you want to provide your feedback on the app,
+                                    have an interesting news tip or are looking for brand partnerships,
+                                    feel free to leave message below.</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hrishikesh.paper.SelectSchemeActivity"
+    tools:showIn="@layout/app_bar_select_scheme">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Scheme"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:id="@+id/tv_select_scheme"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:background="#838383"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"></LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Scheme I"
+        android:textSize="15sp"
+        android:id="@+id/btn_schemei"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:layout_below="@id/tv_select_scheme"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Scheme G"
+        android:textSize="15sp"
+        android:id="@+id/btn_schemeg"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:layout_below="@id/btn_schemei"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

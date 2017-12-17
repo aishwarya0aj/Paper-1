@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_circular"
+            android:icon="@drawable/circular3"
+            android:title="MSBTE Circulars" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/results"
+            android:title="Result" />
+    </group>
+
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <group
+                android:id="@+id/menu_bottom"
+                android:checkableBehavior="none">
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+                <item
+                    android:id="@+id/nav_advertise"
+                    android:icon="@drawable/ad"
+                    android:title="Advertise" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/aboutus"
+                    android:title="About Us" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hrishikesh.paper">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SelectDepartment_i_Activity"
+            android:parentActivityName=".SelectSchemeActivity" />
+        <activity
+            android:name=".G_Scheme.Computer.CompSemesterList_g_Activity"
+            android:parentActivityName=".SelectDepartment_g_Activity" />
+        <activity
+            android:name=".I_Scheme.CivilSemesterList_i_Activity"
+            android:parentActivityName=".SelectDepartment_i_Activity" />
+        <activity
+            android:name=".SelectDepartment_g_Activity"
+            android:parentActivityName=".SelectSchemeActivity" />
+        <activity
+            android:name=".I_Scheme.MechSemesterList_i_Activity"
+            android:parentActivityName=".SelectDepartment_i_Activity" />
+        <activity
+            android:name=".I_Scheme.CompSemesterList_i_Activity"
+            android:parentActivityName=".SelectDepartment_i_Activity" />
+        <activity
+            android:name=".I_Scheme.EntcSemesterList_i_Activity"
+            android:parentActivityName=".SelectDepartment_i_Activity" />
+        <activity
+            android:name=".I_Scheme.ITSemesterList_i_Activity"
+            android:parentActivityName=".SelectDepartment_i_Activity" />
+        <activity
+            android:name=".G_Scheme.Civil.CivilSemesterList_g_Activity"
+            android:parentActivityName=".SelectDepartment_g_Activity" />
+        <activity
+            android:name=".G_Scheme.Mechanical.MechSemesterList_g_Activity"
+            android:parentActivityName=".SelectDepartment_g_Activity" />
+        <activity
+            android:name=".G_Scheme.EnTc.EntcSemesterList_g_Activity"
+            android:parentActivityName=".SelectDepartment_g_Activity" />
+        <activity
+            android:name=".G_Scheme.IT.ITSemesterList_g_Activity"
+            android:parentActivityName=".SelectDepartment_g_Activity" />
+        <activity
+            android:name=".SelectSchemeActivity"
+            android:label="@string/title_activity_select_scheme"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FeedbackActivity"
+            android:parentActivityName=".SelectSchemeActivity" />
+        <activity android:name=".G_Scheme.Computer.CompSem1Subject_g_Activity" />
+        <activity android:name=".G_Scheme.Computer.CompSem2Subject_g_Activity" />
+        <activity android:name=".G_Scheme.Computer.CompSem3Subject_g_Activity" />
+        <activity android:name=".G_Scheme.Computer.CompSem4Subject_g_Activity"></activity>
+    </application>
+
+</manifest>
